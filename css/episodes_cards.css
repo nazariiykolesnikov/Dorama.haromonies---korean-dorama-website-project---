@@ -1,0 +1,151 @@
+.card {
+    padding: 0.4em;
+    /* border: 1px solid rgb(75, 82, 92); */
+    border-radius: 10px;
+    /* background-color: #222429; */
+    text-align: start;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 8px;
+    justify-content: center;
+}
+
+.button-container {
+    display: grid;
+    gap: 84px;
+    grid-template-columns: repeat(2, 80px);
+}
+
+.button-container button {
+    height: 22px;
+    background-color: #0d908d;
+    color: #ffffff;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+.button-container button:first-child {
+    width: 163px;
+}
+
+.button-container button:nth-child(2) {
+    width: 163px; 
+}
+
+.card a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card button:first-child a,
+.card button:nth-child(2) a  {
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.card a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: rgb(20, 95, 181);
+    cursor: pointer;
+}
+
+.dorama-description {
+    color: #0d908d;
+    margin-bottom: 15px;
+}
+
+.card img {
+    margin-top: 4px;
+    width: 340px; 
+    height: 240px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 1px;
+}
+
+.card p a {
+    color: #38bcba;
+}
+
+@media (max-width: 1170px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 200px);
+        gap: 0px;
+    }
+
+    .card {
+        padding: 0em;
+    }
+
+    .button-container button {
+        height: 16px;
+        font-size: 7px;
+        background-color: #0d908d;
+        color: #ffffff;
+        font-weight: 800;
+        border-radius: 10px;
+    }
+
+    .card button:first-child a {
+        font-size: 7px;
+    }
+    
+    .button-container {
+        gap: 7px;
+    }
+
+    .button-container button:first-child {
+        width: 88px;
+    }
+    
+    .button-container button:nth-child(2) {
+        width: 79px; 
+    }
+    
+    .card img {
+        margin-bottom: 1px;
+        width: 175px; 
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .card h2 {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    
+    .card p {
+        color: #0d908d;
+        font-weight: 800;
+        margin-top: 1px;
+        font-size: 12px;
+    }
+
+    .dorama-description {
+        margin-top: -30px; 
+        margin-bottom: -90px;   
+    }
+}
+
+@media (max-width: 456px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 190px);
+    }
+}

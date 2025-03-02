@@ -1,0 +1,15 @@
+/* .owl-carousel {
+  width: 5000px;
+} */
+
+.item img {
+  width: 270px;
+  height: 300px;
+}
+
+.item img:first-child,
+.item img:last-child {
+  padding-left: 0px;
+}
+
+
