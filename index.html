@@ -6,48 +6,290 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Дорами дивитися онлайн українською мовою</title>
   <link rel="icon" href="./images/favicon-114x114.png" type="image/png" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/burger-menu.css" />
   <link rel="stylesheet" href="./css/main-styles.css" />
 </head>
 <body>
-  <header>
-    <div class="nav container">
-      <a href="index.html" class="logo" style="font-weight: 900;">
-        <i class="fa-solid fa-mountain-sun"></i> Dorama.<span style="font-weight: 900;">harmonies</span>
-      </a>
-      <div class="search-box">
-        <input type="search" name="" id="search-input" placeholder="Напишіть тут, щоб шукати ...">
-        <i class="bx fa-solid fa-magnifying-glass"></i>
-      </div>
-      <a href="#" class="user">
-        <img src="./images/user.jpg" alt="" class="user-img">
-      </a>
-      <div class="navbar">
-        <a href="#dramas" class="nav-link">
-          <i class="bx fa-solid fa-icons"></i>
-          <span class="nav-link-title">Драми</span>
-        </a>
-        <a href="#detectives" class="nav-link">
-          <i class="bx fa-solid fa-user-secret"></i>
-          <span class="nav-link-title">Детективи</span>
-        </a>
-        <a href="#advantures" class="nav-link">
-          <i class="bx fa-solid fa-route"></i>
-          <span class="nav-link-title">Пригоди</span>
-        </a>
-        <a href="#horrors" class="nav-link">
-          <i class="bx fa-solid fa-fire"></i>
-          <span class="nav-link-title">Триллери</span>
-        </a>
-        <a href="#romantic" class="nav-link nav-active">
-          <i class="bx fa-solid fa-snowflake"></i>
-          <span class="nav-link-title">Романтика</span>
-        </a>
-      </div>
-    </div>
-  </header>
-  <section class="popular container" id="dramas"><br><br><br>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container_">
+         <div class="nav__data">
+            <a href="#" class="nav__logo">
+               <i class="ri-seedling-fill" style="font-size: 25px;"></i><span style="font-size: 20px; font-weight: 800;">Dorama</span>.<span style="font-size: 20px; color: #0a8c81; font-weight: 800;">harmonies</span>
+            </a>
+            
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line nav__burger"></i>
+               <i class="ri-close-line nav__close"></i>
+            </div>
+         </div>
+
+         <!--=============== NAV MENU ===============-->
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <!-- <li><a href="#" class="nav__link">Домашня</a></li> -->
+
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     <i class="ri-sun-foggy-fill"></i> Драми <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-user-heart-line"></i> Романтичні
+                        </a>                          
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-scales-3-fill"></i> Кримінальні
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-heart-pulse-line"></i> Лікарські
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-sword-line"></i> Військові
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-ping-pong-line"></i> Спортивні
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-group-2-line"></i> Життєві
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-aliens-line"></i> Фантастичні
+                        </a>
+                     </li> 
+                     
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-sparkling-line"></i> Науково-фантастичні
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-image-ai-fill"></i> Усе в розділі "Драми"
+                        </a>
+                     </li>
+
+                  </ul>
+               </li>
+
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     <i class="ri-spy-fill"></i> Детективи <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-dice-3-line"></i> Психологічні
+                        </a>                          
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-umbrella-line"></i> Історичні
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-meteor-line"></i> Фантастичні
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-heavy-showers-line"></i> Іронічні
+                        </a>
+                     </li>
+
+                     
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-glasses-2-fill"></i> Шпигунські
+                        </a>
+                     </li>
+
+                     
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-voice-recognition-line"></i> Політичні
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-key-2-line"></i> Усе в розділі "Детективи"
+                        </a>
+                     </li>
+
+                     <!--=============== DROPDOWN SUBMENU ===============-->
+                     <!-- <li class="dropdown__subitem">
+                        <div class="dropdown__link">
+                           <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                        </div>
+
+                        <ul class="dropdown__submenu">
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-file-list-line"></i> Documents
+                              </a>
+                           </li>
+   
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-cash-line"></i> Payments
+                              </a>
+                           </li>
+   
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-refund-2-line"></i> Refunds
+                              </a>
+                           </li>
+                        </ul>
+                     </li> -->
+                  </ul>
+               </li>
+
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     <i class="ri-flower-line"></i> Романтика <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-foggy-line"></i> Романтині драми
+                        </a>                          
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-emotion-laugh-line"></i> Романтичні комедії
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-door-lock-box-line"></i> Романтичні триллери
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-fire-line"></i> Романтичні бойовики
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-bear-smile-line"></i> Романтичні фентезі
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-moon-clear-line"></i> Усе в розділі "Романтичні"
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               
+               <!--=============== DROPDOWN 2 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     <i class="ri-treasure-map-line"></i> Пригоди <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-shirt-fill"></i> Поліцейські
+                        </a>                          
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-haze-line"></i> Вестерни
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-earthquake-line"></i> Катастрофи
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-roadster-line"></i> Ганстерські
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-message-3-line"></i> Усе в розділі "Пригоди"
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     <i class="ri-water-flash-fill"></i> Триллери <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-user-line"></i> На основі реальних подій
+                        </a>                          
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-ghost-2-line"></i> З елементами фільму жахів
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-lightbulb-flash-line"></i> Усе в розділі "Триллери"
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+
+               <!-- <li><a href="#" class="nav__link">Контакти</a></li> -->
+            </ul>
+         </div>
+      </nav>
+   </header>
+  <section class="popular container" id="dramas"><br><br>
     <div class="heading">
       <h2 class="heading-title"><i class="fa-solid fa-icons"></i> Драми</h2>
       <div class="swiper-btn">
@@ -628,6 +870,7 @@
   <!-- JavaScripts files -->
   <script src="./js/swiper-carousel.js"></script>
   <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/burger-menu.js"></script>
   <script src="./js/main.js"></script>
 </body>
 </html>
