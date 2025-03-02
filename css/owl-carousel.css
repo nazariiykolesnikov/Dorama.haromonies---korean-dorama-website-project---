@@ -2,10 +2,3 @@
   width: 275px;
   height: 320px;
 }
-
-@media (max-width: 1170px) {
-  .item img {
-    width: 500px;
-    height: 360px;
-  }
-}
