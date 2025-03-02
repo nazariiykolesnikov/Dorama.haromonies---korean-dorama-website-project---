@@ -104,11 +104,11 @@
     }
 
     .card button:first-child a {
-        font-size: 7px;
+        font-size: 5px;
     }
     
     .button-container {
-        gap: 7px;
+        gap: 5px;
     }
 
     .button-container button:first-child {
