@@ -1,15 +1,12 @@
-/* .owl-carousel {
-  width: 5000px;
-} */
-
 .item img {
-  width: 270px;
-  height: 300px;
+  width: 355px;
+  height: 340px;
 }
 
-.item img:first-child,
+.item img:first-child {
+  padding-left: 10px;
+}
+
 .item img:last-child {
-  padding-left: 0px;
+  padding-right: 10px;
 }
-
-
