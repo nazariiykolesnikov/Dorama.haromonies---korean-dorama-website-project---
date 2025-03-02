@@ -1,12 +1,11 @@
 .item img {
-  width: 355px;
-  height: 340px;
+  width: 275px;
+  height: 320px;
 }
 
-.item img:first-child {
-  padding-left: 10px;
-}
-
-.item img:last-child {
-  padding-right: 10px;
+@media (max-width: 1170px) {
+  .item img {
+    width: 500px;
+    height: 360px;
+  }
 }
