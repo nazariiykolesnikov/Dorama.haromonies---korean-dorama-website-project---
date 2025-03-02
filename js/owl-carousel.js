@@ -12,6 +12,21 @@ $('.owl-carousel').owlCarousel({
         },
         1000:{
             items:5
+        },
+        1400:{
+            items:7
+        },
+        1800:{
+            items:9
+        },
+        2200:{
+            items:11
+        },
+        2600:{
+            items:13
+        },
+        3000:{
+            items:15
         }
-    }
-})
+    },
+});
